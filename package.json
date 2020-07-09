@@ -1,7 +1,12 @@
 {
-    "name": "lite-server",
+    "name": "Ajax-learn",
     "version": "2.5.4",
     "description": "Lightweight development node server for serving a web app, providing a fallback for browser history API, loading in the browser, and injecting scripts on the fly.",
     "main": "index.js",
-    "scripts": { "start": "lite-server"}
+    "scripts": {
+        "start": "lite-server"
+    },
+    "devDependencies": {
+        "lite-server": "^2.3.0"
+    }
 }
